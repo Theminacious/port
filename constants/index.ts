@@ -92,7 +92,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/theminacious",
   },
   {
     name: "Facebook",
@@ -259,27 +259,30 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Gurkha Clothing – D2C E-commerce Brand",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "A custom-built Shopify storefront for Gurkha-style fashion, focusing on elegance and high performance. Features product filtering, responsive UI, and a strong brand aesthetic. Hosted at italiancollar.com.",
+    image: "/projects/italiancollar.png",
+    link:"https://image.thum.io/get/width/800/https://italiancollar.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "DROP-N-GO – Delivery System",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "A full-stack parcel delivery system with real-time tracking and time selection features. Built using JavaScript and Firebase, it demonstrates logistics simulation and database integration.",
+    image: "/projects/image1.png",
+    link: "https://github.com/theminacious/DROP-N-GO",
   },
+ 
+  
   {
-    title: "Space Themed Website",
+    title: "Shop Football Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
-  },
+      "A Shopify-powered e-commerce store dedicated to football merchandise. Clean UI with intuitive navigation, custom sections, and SEO optimization for fan gear shopping.",
+    image: "https://image.thum.io/get/width/800/https://shopfootball.in",
+    link: "https://shopfootball.in/?srsltid=AfmBOorZoEpwTgp-penNZHqyg4WXqmfCxyfQDSfnvUhNr2F6uRwpY16t",
+  }
 ] as const;
+
 
 export const FOOTER_DATA = [
   {
@@ -360,5 +363,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Theminacious",
 };

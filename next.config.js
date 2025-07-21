@@ -1,4 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: [
+      "image.thum.io",
+      "italiancollar.com",
+      "shopfootball.in",
+    ],
+  },
+};
+
+module.exports = nextConfig;
